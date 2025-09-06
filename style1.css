@@ -1,0 +1,45 @@
+/*.h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+/*.b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(10, 9, 9);
+}
+
+button{
+    background-color: rgb(137, 137, 241);
+    height: 40px;
+    width: 80px;
+}
+
+button:hover{
+    background-color: greenyellow;
+}
+
+.a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 36%;
+}
+
+body{
+    background-image: url(scenary.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
